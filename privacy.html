@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- 현재 앱(v0.9.x) 기능 기준. 인앱 결제(광고 제거), Google Drive 백업, OCR 추가 언어 내려받기 등을 앱에 넣으면 해당 항목을 추가하고 최종 수정일을 고칠 것. -->
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StampOCR · 개인정보처리방침</title>
+<style>
+  :root { color-scheme: light; }
+  body {
+    margin: 0 auto; padding: 32px 20px 64px; max-width: 720px;
+    font-family: -apple-system, "Segoe UI", "Noto Sans KR", sans-serif;
+    line-height: 1.75; color: #13213a; background: #fff;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 36px; border-top: 1px solid #e4eaf2; padding-top: 20px; }
+  .updated { color: #667085; font-size: .9rem; margin-top: 0; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: #0f66f5; }
+  .lang { margin-top: 56px; border-top: 2px solid #e4eaf2; padding-top: 24px; }
+  footer { margin-top: 40px; color: #667085; font-size: .9rem; }
+</style>
+</head>
+<body>
+
+<h1>StampOCR 개인정보처리방침</h1>
+<p class="updated">최종 수정일: 2026-10-13</p>
+
+<p>
+  StampOCR(이하 &quot;본 앱&quot;)는 문서를 스캔하고, 스캔한 문서에서 글자를 읽고, 서명·도장을 올려
+  PDF·이미지로 내보내는 앱입니다. 본 방침은 본 앱이 어떤 정보를 다루고, 어디에 저장하며,
+  언제 기기 밖으로 내보내는지 설명합니다.
+</p>
+
+<p>
+  <strong>본 앱의 개발자는 서버를 운영하지 않으며, 사용자의 문서·사진·인식한 글자·서명·도장을 받거나 보관하지 않습니다.</strong>
+  스캔, 글자 인식(OCR), 도장 배경 제거는 모두 사용자의 기기 안에서 처리되며, 문서는 본 앱을 통해 업로드되지 않습니다.
+  가입·로그인도 필요 없습니다.
+</p>
+
+<h2>1. 카메라와 이미지</h2>
+<ul>
+  <li>
+    <strong>문서 스캔</strong>은 Google의 ML Kit 문서 스캐너를 사용합니다. 촬영·테두리 인식·자르기는
+    기기 안에서 처리되며, 촬영한 이미지는 사용자의 기기에 저장됩니다.
+  </li>
+  <li>
+    <strong>도장·서명 사진</strong>은 기기의 카메라 앱으로 촬영하거나 갤러리에서 고른 사진을 사용합니다.
+    사용자가 고른 사진만 읽으며, 본 앱이 다른 사진에 접근하지 않습니다.
+  </li>
+  <li>
+    <strong>갤러리 이미지</strong>는 사용자가 직접 고른 사진만 가져와 기기 안에서 처리합니다.
+  </li>
+  <li>
+    <strong>글자 인식(OCR)</strong>은 앱에 내장된 모델로 기기 안에서 실행됩니다.
+    인식에 이미지나 글자를 서버로 보내지 않습니다.
+  </li>
+</ul>
+
+<h2>2. 기기에 저장되는 정보</h2>
+<p>다음 정보는 기기 안에만 저장되며, 앱을 삭제하면 함께 삭제됩니다.</p>
+<ul>
+  <li>스캔한 문서 이미지, 문서 이름, 인식한 글자, 글자 위치 — 앱의 문서 목록에서 언제든 개별 삭제할 수 있습니다</li>
+  <li>사용자가 만든 서명과 도장 이미지, 문서에 올려 둔 위치 — 앱에서 삭제할 수 있습니다</li>
+  <li>글자 인식 언어 선택, 광고 이용권 만료 시각 등 앱 설정</li>
+</ul>
+<p>
+  PDF·이미지를 내보내거나 공유할 때는 앱의 임시 캐시에 파일을 만든 뒤, 사용자가 선택한 앱이나 저장 위치로만
+  전달합니다. 전달 이후의 처리는 사용자가 선택한 앱의 방침을 따릅니다.
+</p>
+
+<h2>3. 광고</h2>
+<p>
+  본 앱은 Google AdMob을 통해 배너 광고, 앱 실행 광고, 전면 광고, 보상형 광고를 표시합니다.
+  Google은 광고 제공과 부정 이용 방지를 위해 광고 식별자, 기기 정보, IP 주소 등을 수집할 수 있으며,
+  이는 Google의 개인정보처리방침을 따릅니다. <strong>광고 SDK는 사용자의 문서 이미지나 인식한 글자에 접근하지 않습니다.</strong>
+</p>
+<ul>
+  <li>Google 개인정보처리방침: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>광고 개인 최적화 해제: 기기 설정 → Google → 광고</li>
+</ul>
+<p>
+  보상형 광고는 사용자가 직접 선택할 때만 표시되며, 끝까지 보면 24시간 동안 추가 기능을 쓸 수 있고
+  그동안 다른 광고는 표시되지 않습니다.
+</p>
+
+<h2>4. Google Play 서비스</h2>
+<p>
+  문서 스캐너는 Google Play 서비스를 통해 제공되는 구성 요소입니다. 이 구성 요소는 필요한 모델을 Google Play를 통해
+  내려받을 수 있으며, 사용 통계·진단 정보를 Google의 방침에 따라 수집할 수 있습니다.
+  이 처리는 Google이 수행하며 본 앱의 개발자는 해당 정보를 받지 않습니다.
+</p>
+
+<h2>5. 아동 개인정보</h2>
+<p>
+  본 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.
+</p>
+
+<h2>6. 방침 변경</h2>
+<p>본 방침이 변경되는 경우 이 페이지에 변경 내용과 최종 수정일을 게시합니다.</p>
+
+<h2>7. 문의</h2>
+<ul>
+  <li>개발자: 송태환 (SongTaeHwan)</li>
+  <li>이메일: <a href="mailto:songtaehwan@gmail.com">songtaehwan@gmail.com</a></li>
+</ul>
+
+<div class="lang" lang="en">
+  <h1>Privacy Policy — StampOCR</h1>
+  <p class="updated">Last updated: 2026-10-13</p>
+
+  <p>
+    StampOCR (&quot;the app&quot;) scans documents, reads their text, and lets you add a signature
+    or stamp and export PDFs or images. This policy explains what the app handles, where it is stored,
+    and when it leaves your device.
+  </p>
+
+  <p>
+    <strong>The developer runs no server and never receives or holds your documents, photos, recognized text, signatures, or stamps.</strong>
+    Scanning, text recognition (OCR), and stamp background removal run entirely on your device; the app does not
+    upload your documents. No account or sign-in is required.
+  </p>
+
+  <h2>1. Camera and images</h2>
+  <ul>
+    <li>
+      <strong>Document scanning</strong> uses Google&#39;s ML Kit Document Scanner. Capture, edge detection,
+      and cropping happen on the device, and the captured images are saved on your device.
+    </li>
+    <li>
+      <strong>Stamp and signature photos</strong> come from your device&#39;s camera app or a photo you pick from the gallery.
+      Only the photo you choose is read; the app does not access your other photos.
+    </li>
+    <li>
+      A <strong>gallery image</strong> is imported only when you pick it, and is processed on the device.
+    </li>
+    <li>
+      <strong>Text recognition (OCR)</strong> runs with a model bundled in the app, on the device.
+      Images and text are not sent to a server for recognition.
+    </li>
+  </ul>
+
+  <h2>2. Data stored on your device</h2>
+  <p>The following stays on your device and is removed when you uninstall the app.</p>
+  <ul>
+    <li>Scanned document images, document names, recognized text, and text positions — you can delete each document in the app at any time</li>
+    <li>Signatures and stamp images you create, and where you placed them on documents — you can delete them in the app</li>
+    <li>App settings such as OCR language and the expiry time of an ad-free pass</li>
+  </ul>
+  <p>
+    When you export or share a PDF or image, the file is created in the app&#39;s temporary cache and passed only to
+    the app or location you choose. What happens afterward is governed by that app&#39;s policies.
+  </p>
+
+  <h2>3. Advertising</h2>
+  <p>
+    The app shows banner, app-open, interstitial, and rewarded ads through Google AdMob. Google may collect
+    advertising identifiers, device information, and IP address to serve ads and prevent abuse, governed by
+    <a href="https://policies.google.com/privacy">Google&#39;s Privacy Policy</a>.
+    <strong>The ad SDK does not access your document images or recognized text.</strong>
+  </p>
+  <ul>
+    <li>To opt out of ad personalization: device Settings → Google → Ads</li>
+  </ul>
+  <p>
+    Rewarded ads are shown only when you choose to watch one. Watching one to the end unlocks extra features
+    for 24 hours, during which other ads are not shown.
+  </p>
+
+  <h2>4. Google Play services</h2>
+  <p>
+    The document scanner is a component delivered through Google Play services. It may download required models
+    through Google Play and may collect usage and diagnostic data under Google&#39;s policies.
+    Google performs this processing; the developer does not receive that information.
+  </p>
+
+  <h2>5. Children</h2>
+  <p>The app is not directed to children under 14 and does not knowingly collect their data.</p>
+
+  <h2>6. Changes</h2>
+  <p>If this policy changes, the changes and the last-updated date will be posted on this page.</p>
+
+  <h2>7. Contact</h2>
+  <ul>
+    <li>Developer: SongTaeHwan</li>
+    <li>Email: <a href="mailto:songtaehwan@gmail.com">songtaehwan@gmail.com</a></li>
+  </ul>
+</div>
+
+<footer>StampOCR · 송태환 (SongTaeHwan)</footer>
+
+</body>
+</html>
