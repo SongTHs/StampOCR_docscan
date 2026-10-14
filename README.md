@@ -1,6 +1,6 @@
-# StampOCR_docscan
+# ScanPaper_docscan
 
-Public repository for the StampOCR project.
+Public repository for the ScanPaper project.
 
 ## Contains
 
