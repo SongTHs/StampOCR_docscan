@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- 현재 앱(v0.9.x) 기능 기준. 인앱 결제(광고 제거), Google Drive 백업, OCR 추가 언어 내려받기 등을 앱에 넣으면 해당 항목을 추가하고 최종 수정일을 고칠 것. -->
+<!-- 현재 앱(v0.9.x) 기능 기준(광고 제거 인앱 결제 포함). Google Drive 백업, OCR 추가 언어 내려받기, pro 결제 등을 앱에 넣으면 해당 항목을 추가하고 최종 수정일을 고칠 것. -->
 <html lang="ko">
 <head>
 <meta charset="utf-8">
@@ -25,7 +25,7 @@
 <body>
 
 <h1>ScanPaper 개인정보처리방침</h1>
-<p class="updated">최종 수정일: 2026-10-13</p>
+<p class="updated">최종 수정일: 2026-10-25</p>
 
 <p>
   ScanPaper(이하 &quot;본 앱&quot;)는 문서를 스캔하고, 스캔한 문서에서 글자를 읽고, 서명·도장을 올려
@@ -63,7 +63,7 @@
 <ul>
   <li>스캔한 문서 이미지, 문서 이름, 인식한 글자, 글자 위치 — 앱의 문서 목록에서 언제든 개별 삭제할 수 있습니다</li>
   <li>사용자가 만든 서명과 도장 이미지, 문서에 올려 둔 위치 — 앱에서 삭제할 수 있습니다</li>
-  <li>글자 인식 언어 선택, 광고 이용권 만료 시각 등 앱 설정</li>
+  <li>광고 이용권 만료 시각, 광고 제거 구매 여부 등 앱 설정</li>
 </ul>
 <p>
   PDF·이미지를 내보내거나 공유할 때는 앱의 임시 캐시에 파일을 만든 뒤, 사용자가 선택한 앱이나 저장 위치로만
@@ -90,22 +90,29 @@
   그동안 다른 광고는 표시되지 않습니다.
 </p>
 
-<h2>4. Google Play 서비스</h2>
+<h2>4. 광고 제거 결제</h2>
+<p>
+  광고 제거는 Google Play 결제로 판매하는 일회성 인앱 상품(구독 아님)입니다. 결제와 환불은 Google Play가 처리하며,
+  본 앱의 개발자는 카드 번호 등 결제 정보를 받거나 저장하지 않습니다. 앱은 구매 여부를 확인하기 위해 Google Play에
+  구매 내역을 조회하고, 광고 제거 보유 여부만 기기 안에 저장합니다. 광고 제거를 구매하면 광고가 표시되지 않고
+  서명·도장 저장 개수 제한이 없어집니다.
+</p>
+<h2>5. Google Play 서비스</h2>
 <p>
   문서 스캐너는 Google Play 서비스를 통해 제공되는 구성 요소입니다. 이 구성 요소는 필요한 모델을 Google Play를 통해
   내려받을 수 있으며, 사용 통계·진단 정보를 Google의 방침에 따라 수집할 수 있습니다.
   이 처리는 Google이 수행하며 본 앱의 개발자는 해당 정보를 받지 않습니다.
 </p>
 
-<h2>5. 아동 개인정보</h2>
+<h2>6. 아동 개인정보</h2>
 <p>
   본 앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.
 </p>
 
-<h2>6. 방침 변경</h2>
+<h2>7. 방침 변경</h2>
 <p>본 방침이 변경되는 경우 이 페이지에 변경 내용과 최종 수정일을 게시합니다.</p>
 
-<h2>7. 문의</h2>
+<h2>8. 문의</h2>
 <ul>
   <li>개발자: 송태환 (SongTaeHwan)</li>
   <li>이메일: <a href="mailto:songtaehwan@gmail.com">songtaehwan@gmail.com</a></li>
@@ -113,7 +120,7 @@
 
 <div class="lang" lang="en">
   <h1>Privacy Policy — ScanPaper</h1>
-  <p class="updated">Last updated: 2026-10-13</p>
+  <p class="updated">Last updated: 2026-10-25</p>
 
   <p>
     ScanPaper (&quot;the app&quot;) scans documents, reads their text, and lets you add a signature
@@ -151,7 +158,7 @@
   <ul>
     <li>Scanned document images, document names, recognized text, and text positions — you can delete each document in the app at any time</li>
     <li>Signatures and stamp images you create, and where you placed them on documents — you can delete them in the app</li>
-    <li>App settings such as OCR language and the expiry time of an ad-free pass</li>
+    <li>App settings such as the expiry time of an ad-free pass and whether ads were removed</li>
   </ul>
   <p>
     When you export or share a PDF or image, the file is created in the app&#39;s temporary cache and passed only to
@@ -178,20 +185,28 @@
     for 24 hours, during which other ads are not shown.
   </p>
 
-  <h2>4. Google Play services</h2>
+  <h2>4. Ad removal purchase</h2>
+  <p>
+    Removing ads is a one-time in-app purchase (not a subscription) sold through Google Play. Google Play handles
+    payment and refunds, and the developer does not receive or store your card or payment details. The app asks
+    Google Play for your purchase history to check whether you own it, and stores only whether ads are removed on your
+    device. After purchasing, ads are no longer shown and the limit on saved signatures and stamps is lifted.
+  </p>
+
+  <h2>5. Google Play services</h2>
   <p>
     The document scanner is a component delivered through Google Play services. It may download required models
     through Google Play and may collect usage and diagnostic data under Google&#39;s policies.
     Google performs this processing; the developer does not receive that information.
   </p>
 
-  <h2>5. Children</h2>
+  <h2>6. Children</h2>
   <p>The app is not directed to children under 14 and does not knowingly collect their data.</p>
 
-  <h2>6. Changes</h2>
+  <h2>7. Changes</h2>
   <p>If this policy changes, the changes and the last-updated date will be posted on this page.</p>
 
-  <h2>7. Contact</h2>
+  <h2>8. Contact</h2>
   <ul>
     <li>Developer: SongTaeHwan</li>
     <li>Email: <a href="mailto:songtaehwan@gmail.com">songtaehwan@gmail.com</a></li>
